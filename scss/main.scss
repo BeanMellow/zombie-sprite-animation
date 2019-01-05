@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+@keyframes sprite {
+  100% { background-position: -2000px }
+}
+
+@keyframes move {
+  100% { left: -15% }
+}
+
+.zombie {
+  width: 200px;
+  height: 312px;
+  background-image: url('http://www.wdrfree.com/public/demos/animatespritekeyframes/walkingdead.png');
+  position: absolute;
+  bottom: 50px;
+  left: 110%;
+  animation: sprite 0.8s steps(10) infinite, move 10s linear forwards;
+}
+
+.board {
+  height: 100vh;
+  min-height: 800px;
+  position: relative;
+  overflow: hidden;
+  background: rgb(0, 0, 0);
+  background-image: url(../images/board-bg.jpg);
+  background-size: cover;
+  background-position: center bottom;
+}

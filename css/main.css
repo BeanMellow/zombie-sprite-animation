@@ -1,0 +1,43 @@
+/* line 1, scss/main.scss */
+body {
+  margin: 0; }
+
+@-webkit-keyframes sprite {
+  100% {
+    background-position: -2000px; } }
+
+@keyframes sprite {
+  100% {
+    background-position: -2000px; } }
+
+@-webkit-keyframes move {
+  100% {
+    left: -15%; } }
+
+@keyframes move {
+  100% {
+    left: -15%; } }
+
+/* line 13, scss/main.scss */
+.zombie {
+  width: 200px;
+  height: 312px;
+  background-image: url("http://www.wdrfree.com/public/demos/animatespritekeyframes/walkingdead.png");
+  position: absolute;
+  bottom: 50px;
+  left: 110%;
+  -webkit-animation: sprite 0.8s steps(10) infinite, move 10s linear forwards;
+          animation: sprite 0.8s steps(10) infinite, move 10s linear forwards; }
+
+/* line 23, scss/main.scss */
+.board {
+  height: 100vh;
+  min-height: 800px;
+  position: relative;
+  overflow: hidden;
+  background: black;
+  background-image: url(../images/board-bg.jpg);
+  background-size: cover;
+  background-position: center bottom; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4uY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDRCQUE0QjtBQUM1QjtFQUNFLFVBQVUsRUFBRTs7QUFFZDtFQUNFO0lBQ0UsNkJBQTZCLEVBQUUsRUFBRTs7QUFGckM7RUFDRTtJQUNFLDZCQUE2QixFQUFFLEVBQUU7O0FBRXJDO0VBQ0U7SUFDRSxXQUFXLEVBQUUsRUFBRTs7QUFGbkI7RUFDRTtJQUNFLFdBQVcsRUFBRSxFQUFFOztBQUVuQiw2QkFBNkI7QUFDN0I7RUFDRSxhQUFhO0VBQ2IsY0FBYztFQUNkLG9HQUFvRztFQUNwRyxtQkFBbUI7RUFDbkIsYUFBYTtFQUNiLFdBQVc7RUFDWCw0RUFBb0U7VUFBcEUsb0VBQW9FLEVBQUU7O0FBRXhFLDZCQUE2QjtBQUM3QjtFQUNFLGNBQWM7RUFDZCxrQkFBa0I7RUFDbEIsbUJBQW1CO0VBQ25CLGlCQUFpQjtFQUNqQixrQkFBa0I7RUFDbEIsOENBQThDO0VBQzlDLHVCQUF1QjtFQUN2QixtQ0FBbUMsRUFBRSIsImZpbGUiOiJtYWluLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIGxpbmUgMSwgc2Nzcy9tYWluLnNjc3MgKi9cbmJvZHkge1xuICBtYXJnaW46IDA7IH1cblxuQGtleWZyYW1lcyBzcHJpdGUge1xuICAxMDAlIHtcbiAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiAtMjAwMHB4OyB9IH1cblxuQGtleWZyYW1lcyBtb3ZlIHtcbiAgMTAwJSB7XG4gICAgbGVmdDogLTE1JTsgfSB9XG5cbi8qIGxpbmUgMTMsIHNjc3MvbWFpbi5zY3NzICovXG4uem9tYmllIHtcbiAgd2lkdGg6IDIwMHB4O1xuICBoZWlnaHQ6IDMxMnB4O1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoXCJodHRwOi8vd3d3LndkcmZyZWUuY29tL3B1YmxpYy9kZW1vcy9hbmltYXRlc3ByaXRla2V5ZnJhbWVzL3dhbGtpbmdkZWFkLnBuZ1wiKTtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBib3R0b206IDUwcHg7XG4gIGxlZnQ6IDExMCU7XG4gIGFuaW1hdGlvbjogc3ByaXRlIDAuOHMgc3RlcHMoMTApIGluZmluaXRlLCBtb3ZlIDEwcyBsaW5lYXIgZm9yd2FyZHM7IH1cblxuLyogbGluZSAyMywgc2Nzcy9tYWluLnNjc3MgKi9cbi5ib2FyZCB7XG4gIGhlaWdodDogMTAwdmg7XG4gIG1pbi1oZWlnaHQ6IDgwMHB4O1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIGJhY2tncm91bmQ6IGJsYWNrO1xuICBiYWNrZ3JvdW5kLWltYWdlOiB1cmwoLi4vaW1hZ2VzL2JvYXJkLWJnLmpwZyk7XG4gIGJhY2tncm91bmQtc2l6ZTogY292ZXI7XG4gIGJhY2tncm91bmQtcG9zaXRpb246IGNlbnRlciBib3R0b207IH1cbiJdfQ== */
